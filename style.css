@@ -1,0 +1,14 @@
+.ServerRoom {
+    background-image: url(ServerRoom.jpg) ;
+    width: 1280px;
+    height: 448px;
+    background-repeat: no-repeat;
+}
+.bread {
+    background-color: whitesmoke;
+    font-size: 1.1em;
+}
+.fullnavbar{
+    background-color:black;
+    color: white;
+}

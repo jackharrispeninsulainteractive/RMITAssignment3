@@ -2,15 +2,18 @@
     background-color: #333333;
     color: whitesmoke;
     padding-bottom: 10%;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
 
 .HeaderContentBg1{
-    background-image: url("assets/headerbg2.webp");
+    background-color: rgba(0,0,0,0.5);
+    background-image: url("assets/background2.png");
     background-attachment: fixed;
     background-position: top;
     background-repeat: no-repeat;
     background-size: cover;
-    min-height: 16em;
+    padding-top: 10%;
+
 }
 
 .Spacer {
@@ -20,8 +23,15 @@
     margin-bottom: 4em;
 }
 
-.Section .SectionTitle {
+.SectionTitle {
     padding: 1em;
+    padding-top: 2em;
+    padding-bottom: 3em;
+    background-image: linear-gradient(to right, #00355F , #00355F);
+    border-radius: 25px;
+    margin-bottom: -1.5em;
+    color: white;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
 
 .Section .SectionContent {
@@ -56,7 +66,7 @@
 }
 
 .breadcrumb{
-    padding: 0.25em!important;
+    padding: 0.25em !important;
     margin-bottom: 0 !important;
     background-color: #212121;
     color: whitesmoke;
@@ -64,4 +74,18 @@
 
 .ProfileImage {
     max-width: 128px;
+}
+
+.ProfileSection {
+    margin: 2em;
+    padding: 2em;
+}
+
+.table {
+    color: white !important;
+}
+
+.footer {
+    background-color: red;
+    padding-bottom: 5em;
 }

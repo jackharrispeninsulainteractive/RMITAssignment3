@@ -55,21 +55,13 @@
     color: white !important;
 }
 
-.FooterHeader {
-    background-color: white;
-    padding-top: 1em;
-}
-.Footer {
-    background-color: #00355F;
-    padding-top: 2em;
-    padding-bottom: 2em;
-    margin-bottom: -1em;
-    color:white;
-}
-
 .breadcrumb{
     padding: 0.25em!important;
     margin-bottom: 0 !important;
     background-color: #212121;
     color: whitesmoke;
+}
+
+.ProfileImage {
+    max-width: 128px;
 }

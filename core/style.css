@@ -7,7 +7,7 @@
 
 .HeaderContentBg1{
     background-color: rgba(0,0,0,0.5);
-    background-image: url("assets/background2.png");
+    background-image: url("assets/background.jpg");
     background-attachment: fixed;
     background-position: top;
     background-repeat: no-repeat;
@@ -27,6 +27,7 @@
     padding: 1em;
     padding-top: 2em;
     padding-bottom: 3em;
+    padding-left: 4em;
     background-image: linear-gradient(to right, #00355F , #00355F);
     border-radius: 25px;
     margin-bottom: -1.5em;
@@ -35,7 +36,8 @@
 }
 
 .Section .SectionContent {
-    padding: 1em;
+    padding: 4em;
+
 }
 
 #educationlist {
@@ -86,6 +88,25 @@
 }
 
 .footer {
-    background-color: red;
+    background-color: #1D1D1D;
     padding-bottom: 5em;
+}
+
+.center {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+}
+
+
+.FooterHeader {
+    background-color: white;
+    padding-top: 1em;
+}
+.Footer {
+    padding: 2em;
+    background-color: #1D1D1D;
+    margin-bottom: -1em;
+    color:white;
 }

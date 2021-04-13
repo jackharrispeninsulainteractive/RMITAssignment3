@@ -117,3 +117,8 @@
     -ms-transform: translateY(-50%);
     transform: translateY(-50%);
 }
+
+.report {
+    padding-top: 2em;
+    padding-bottom: 2em;
+}

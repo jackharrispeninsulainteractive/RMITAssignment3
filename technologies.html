@@ -56,7 +56,7 @@
 <div class="HeaderContentBg1">
     <div class="container">
         <div class="SectionTitle">
-            <h1><u><strong>IT Technologies</strong></u></h1> <h6>Assignment Credit: N/A</h6>
+            <h1><u><strong>IT Technologies</strong></u></h1> <h6>Assignment Credit: Jack Harris, Noah Jacobson, Jaydyn Hoskings, Alex Vorraro</h6>
         </div>
     </div>
 
@@ -67,20 +67,104 @@
 
                     <h5><u><strong>Overview</strong></u></h5>
                     <br>
-                    <p>Add Overview Text</p>
-                    <br>
+                    <div class="buttons">
+                    <button type="button" class="btn" style="background-color: #00355F; color: white;" onclick="displayMachineLearning()" id="buttonMachineLearning"><strong>Machine Learning Report</strong></button>
+                    <button type="button" class="btn" style="background-color: #00355F; color: white;" onclick="displayAutonomousVehicles()" id="buttonAutonomousVehicles"><strong>Autonomous Vehicles Report</strong></button>
+                    <button type="button" class="btn" style="background-color: #00355F; color: white;" onclick="displayCyberSecuirty()" id="buttonCyberSecurity"><strong>Cyber Security Report</strong></button>
+                    <button type="button" class="btn" style="background-color: #00355F; color: white;" onclick="displayJaydyn()" id="buttonJaydyn"><strong>Jaydyn's Report</strong></button>
+                    </div>
 
-                    <div class="Spacer"></div>
+                    <div id="contentMachineLearning" style="display: none">
+                        <div class="report">
+                            <h3 style="text-align: center"><strong>Machine Learning Report</strong></h3>
+                            <br>
+                            <embed src="./core/uploads/placeholderPDF.pdf#toolbar=0&navpanes=0&scrollbar=0" type="application/pdf" width="100%" height="600px" />
+                            <br>
+                            <br>
+                            <div class="reportCredit row">
+                                <div class="col-2"><img src="./core/assets/noah.PNG" alt="Noah Profile Image" class="ProfileImage"></div>
+                                <div class="col-8" style="padding-top: 2em;"><h6>Written by Noah Jacobson</h6>
+                                    <h6>14/04/2021</h6>
+                                    <h6>Created for RMIT ITT Assessment 2</h6>
+                                </div>
+                            </div>
+                            <br>
+                            <button type="button" class="btn" style="background-color: #00355F; max-width: 100%;">
+                                <a href="./core/uploads/placeholderPDF.pdf" style="color: white"> <strong>Download Offline Copy</strong></a>
+                            </button>
+                            <br>
+                        </div>
+                    </div>
 
-                    <h5><u><strong>Subsection</strong></u></h5>
-                    <br>
-                    <p>Add Subsection Text</p>
-                    <br>
+                    <div id="contentAutonomousVehicles" style="display: none">
+                        <div class="report">
+                            <h3 style="text-align: center"><strong>Autonomous Vehicles Report</strong></h3>
+                            <br>
+                            <embed src="./core/uploads/placeholderPDF.pdf#toolbar=0&navpanes=0&scrollbar=0" type="application/pdf" width="100%" height="600px" />
+                            <br>
+                            <br>
+                            <div class="reportCredit row">
+                                <div class="col-2"><img src="./core/assets/alex.PNG" alt="Alex Profile Image" class="ProfileImage"></div>
+                                <div class="col-8" style="padding-top: 2em;"><h6>Written by Alex Vorraro</h6>
+                                    <h6>14/04/2021</h6>
+                                    <h6>Created for RMIT ITT Assessment 2</h6>
+                                </div>
+                            </div>
+                            <br>
+                            <button type="button" class="btn" style="background-color: #00355F; max-width: 100%;">
+                                <a href="./core/uploads/placeholderPDF.pdf" style="color: white"> <strong>Download Offline Copy</strong></a>
+                            </button>
+                            <br>
+                        </div>
+                    </div>
 
+                    <div id="contentCyberSecurity" style="display: none">
+                        <div class="report">
+                            <h3 style="text-align: center"><strong>Cyber Security Report</strong></h3>
+                            <br>
+                            <embed src="./core/uploads/placeholderPDF.pdf#toolbar=0&navpanes=0&scrollbar=0" type="application/pdf" width="100%" height="600px" />
+                            <br>
+                            <br>
+                            <div class="reportCredit row">
+                                <div class="col-2"><img src="./core/assets/jack.png" alt="jack Profile Image" class="ProfileImage"></div>
+                                <div class="col-8" style="padding-top: 2em;"><h6>Written by Jack Harris</h6>
+                                    <h6>15/04/2021</h6>
+                                    <h6>Created for RMIT ITT Assessment 2</h6>
+                                </div>
+                            </div>
+                            <br>
+                            <button type="button" class="btn" style="background-color: #00355F; max-width: 100%;">
+                                <a href="./core/uploads/placeholderPDF.pdf" style="color: white"> <strong>Download Offline Copy</strong></a>
+                            </button>
+                            <br>
+                        </div>
+                    </div>
+
+                    <div id="contentJaydyn" style="display: none">
+                        <div class="report">
+                            <h3 style="text-align: center"><strong>Placeholder Report</strong></h3>
+                            <br>
+                            <embed src="./core/uploads/placeholderPDF.pdf#toolbar=0&navpanes=0&scrollbar=0" type="application/pdf" width="100%" height="600px" />
+                            <br>
+                            <br>
+                            <div class="reportCredit row">
+                                <div class="col-2"><img src="./core/assets/jaydyn.png" alt="Jaydyn Profile Image" class="ProfileImage"></div>
+                                <div class="col-8" style="padding-top: 2em;"><h6>Written by Jaydyn Hoskings</h6>
+                                    <h6>13/04/2021 - REPLACE WITH REAL DATE</h6>
+                                    <h6>Created for RMIT ITT Assessment 2</h6>
+                                </div>
+                            </div>
+                            <br>
+                                <button type="button" class="btn" style="background-color: #00355F; max-width: 100%;">
+                                    <a href="./core/uploads/placeholderPDF.pdf" style="color: white"> <strong>Download Offline Copy</strong></a>
+                                </button>
+                            <br>
+                            </div>
+                        </div>
+                    </div>
                 </div>
-
             </div>
-        </div>
+
 
         <div class="FooterHeader">
             <div class="container">
@@ -122,9 +206,9 @@
         </div>
     </div>
 </div>
-
 </div>
 
+<script src="./core/scripts/toggleTechnologies.js"></script>
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/js/bootstrap.bundle.min.js" integrity="sha384-b5kHyXgcpbZJO/tY9Ul7kGkf1S0CWuKcCD38l8YkeH8z8QjE0GmW1gYU5S9FOnJ0" crossorigin="anonymous"></script>
 
 </body>

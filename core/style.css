@@ -35,7 +35,7 @@
     padding-top: 2em;
     padding-bottom: 3em;
     padding-left: 4em;
-    background-image: linear-gradient(to right, #153771 , #153771);
+    background-image: linear-gradient(to right, #00355F  , #00355F);
     border-radius: 25px;
     margin-bottom: -1.5em;
     color: white;
@@ -63,7 +63,7 @@
 }
 
 .navbar {
-    background-color: #153771;
+    background-color: #00355F;
 }
 
 .navbar a{
@@ -141,7 +141,7 @@
 }
 
 .RowHeader {
-    background-color: #153771;
+    background-color: #00355F;
     margin-left: -4em;
     margin-right: -4em;
     padding:1em;
@@ -149,7 +149,7 @@
 }
 
 .dropdown-menu{
-    background-color: #153771!important;
+    background-color: #00355F!important;
 }
 
 
